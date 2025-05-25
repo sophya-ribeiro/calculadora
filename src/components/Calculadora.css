@@ -1,0 +1,90 @@
+/* ---------- CALCULADORA ----------- */
+
+.corpo-calculadora{
+    padding: 1.5rem;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+    justify-content: flex-end;
+    -webkit-box-shadow: 0px 7px 9px 0px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.4);
+}
+
+/* ---------- SEÇÃO RESULTADOS ----------- */
+
+.div-resultado{
+	padding: 1rem;
+	background-color: #f4f4f4e6;
+	border-radius: 12px;
+	margin-bottom: 10px;
+}
+
+.div-resultado h1, h2{
+	text-align: right;
+} 
+
+#resultAnterior{
+	font-size: 24px;
+    margin: 0;
+    padding-bottom: 0.5rem;
+	font-weight: 400;
+	color: rgb(147, 147, 147);
+}
+
+#resultAtual{
+    margin: 0;
+	font-size: 50px;
+	font-weight: 400;
+}
+
+/* ---------- BOTÕES ----------- */
+
+.secao-botoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.secao-botoes button{
+    padding: 20px;
+    margin: 5px;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px; 
+    border: none;
+}
+
+.botao-limparCalcular{
+    border-radius: 50px !important;
+    width: 170px !important;
+    font-size: 22px;
+	font-weight: 400;
+	font-family: "Poppins", sans-serif;
+}
+
+.botao-op{
+    font-size: 24px;
+    background-color: #8816b6e6;
+    color: white;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+}
+
+.botao-num{
+    font-size: 25px;
+    background-color: #f4f4f4e6;;
+}
+
+.botao-num:hover{
+    font-size: 25px;
+    background-color: #c9bfc9e6;
+    cursor: pointer;
+    transition: 0.8s;
+}
+

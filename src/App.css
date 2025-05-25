@@ -1,0 +1,30 @@
+.App {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(180deg, #6b0992e6, rgba(37, 0, 50, 0.9) 100%);
+}
+
+/* ---------- FOOTER ----------- */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+footer p {
+  color: white;
+}
+
+footer p a {
+  font-weight: bolder;
+  color: rgb(200, 142, 255);
+  text-decoration: none;
+}
